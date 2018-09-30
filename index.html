@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GifTastic</title>     <!-- Titulo pagina-->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        <!-- Devices -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- libreria Jquery -->
+
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />    <!-- resetear CSS -->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />    <!-- estilos CSS -->
+     
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div id="buttonIns"></div> <hr>    
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <form>
+                            <p class="allImages">add an animal</p>
+                            <input type="text" name="addTopic" id="submit01">                         <!-- forma donde guarda el valor -->
+                            <input type="submit" value="Submit", class="btn btn-success" id="submit">       <!-- botton para enviar -->
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg" id="divImages">
+
+
+                    <div id="images"></div>
+
+
+                </div>
+            </div>
+
+        </div>    
+            
+
+        <script src="assets/javascript/app.js"></script>    <!-- si se dirige archivo javascript --> 
+    </body> 
+</html>

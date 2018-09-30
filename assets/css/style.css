@@ -1,0 +1,46 @@
+body{
+    background: #EAEDED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:20px;
+    width: 100%;
+}
+button {
+    margin:10px;
+    width: 100px;
+    
+}
+
+#submit {
+    margin:10px 0px;
+    width: 100px;    
+}
+
+form {
+    margin:10px;
+    margin-right:20px;
+}
+
+#submit01 {
+    margin:10px 0px;
+    width: 300px;
+    border: 2px solid #5499C7;  
+}
+
+#gif{
+    margin-left: 10px;
+    
+}
+
+
+.gif{
+    max-width: width 399px; ;
+    height:200px;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+
+.allImage {
+    
+    width: 400px;
+    float:left;
+}
